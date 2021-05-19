@@ -10,7 +10,7 @@ from telebot import types
 
 import sqlite
 
-bot = telebot.TeleBot(config.token)
+bot = telebot.TeleBot()#your token
 
 @bot.message_handler(commands=['start'])
 def start(message):
